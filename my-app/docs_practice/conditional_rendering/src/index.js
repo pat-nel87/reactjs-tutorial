@@ -50,6 +50,12 @@ class LoginControl extends React.Component {
   }
 
   render() {
+    /* 
+        You can use variables to store elements. This can help 
+        you conditionally render a part of the component while the
+        rest of the output doesn’t change.
+    */
+    
     const isLoggedIn = this.state.isLoggedIn;
     let button;
     if (isLoggedIn) {
